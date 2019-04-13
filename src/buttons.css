@@ -1,0 +1,20 @@
+.two_buttons {
+  display: flex;
+}
+
+.apple_button {
+  margin-right: 35px;
+
+}
+
+.google_button, .apple_button {
+  display: flex;
+  opacity: 1;
+}
+
+.google_button:hover,
+.apple_button:hover {
+  transition: 0.5s;
+  opacity: 0.8;
+}
+

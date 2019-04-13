@@ -3,61 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <title>Football</title>
-  <link href="main.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<header>
-  <img src="images/LOGO.png" alt="">
-  <h1>Get a personalized football experience tailored just for you</h1>
-  <p>Achieve super-fan status by getting tailored updates and up-to-the-minute information on your team.</p>
-  <button><img src="images/Apple%20Store.svg" alt=""></button>
-  <button><img src="images/Google%20Play.svg" alt=""></button>
-</header>
-<div><img src="images/Frame.svg" alt=""></div>
-<section>
-  <span>WHAT IT DOES</span>
-  <h2>An Enhanced Football Experience</h2>
-  <p>
-    The Guardian Live Scores app is your go to app for live
-    scores and watching Premier League goals… Get in there,what a result!
-  </p>
-  <p>
-    As well as videos of all the goals, you can watch match highlights, check out the latest scores and results
-    and stay bang-up-to-date with the big football stories from The Guardian publication.
-  </p>
-  <a href="javascript:void(0)">Learn more</a>
+<section class="first_block">
+  <div class="header">
+    <header>
+      <a href="javascript:void(0)"><img src="images/logo.svg" alt="logo"></a>
+      <h1 class="h1_first_block">Get a personalized football experience tailored just for you
+      </h1>
+      <p class="p_first_block">Achieve super-fan status by getting tailored updates and up-to-the-minute information on
+        your team.
+      </p>
+      <div class="two_buttons">
+        <a class="apple_button" href="javascript:void(0)">
+          <img src="images/Apple%20Store.png" alt="applestore">
+        </a>
+        <a class="google_button" href="javascript:void(0)">
+          <img src="images/Google%20Play.png" alt="googlestore">
+        </a>
+      </div>
+    </header>
+  </div>
 </section>
-<section>
-  <form action="URL" method="post">
-    <time datetime="2018-09-09 19:00">Sat, 12:35pm</time>
-    <h3>Arsenal v Chelsea</h3>
-    <h5>Friendly Match</h5>
-    <input type="checkbox">Turn on all match notifications
-    <img src="images/arsenal-fc.png" alt="">
-    <img src="images/chelsea-fc.png" alt="">
-  </form>
-  <video width="400" height="300" controls="controls" poster="video/Rectangle.png">
-    <source src="video/Ars-Tot.mp4" type="video/mp4">
-  </video>
+<section class="second_block">
+  <div class="arsenal-vs-chelsea">
+    <div class="football_match">
+      <time datetime="2018-09-09 19:00">Sat, 12:35pm</time>
+      <p>Arsenal v <br>
+        Chelsea</p>
+      <span>Friendly Match</span>
+      <img class="arsenal" src="images/arsenal-fc.png" alt="arsenal_logo">
+      <img class="chelsea" src="images/chelsea-fc.png" alt="chelsea_logo">
+      <form class="form_notifications">
+        <input class="input" id="notification" type="checkbox">
+        <label class="label" for="notification">
+          <span class="turn-on">Turn-on all notifications</span>
+        </label>
+      </form>
+    </div>
+    <video class="video" controls="controls" poster="video/Rectangle.png">
+      <source src="video/Ars-Tot.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="about_app">
+    <h5 class="first_h5">WHAT IT DOES</h5>
+    <h3 class="first_h3">An Enhanced Football Experience</h3>
+    <p class="information_about_app">The Guardian Live Scores app is your go to app for live
+      scores and watching Premier League goals… Get in there,what a result!</p>
+    <p class="information_about_app">As well as videos of all the goals, you can watch match highlights,
+      check out the latest scores and results
+      and stay bang-up-to-date with the big football stories from The Guardian publication.
+    </p>
+    <a href="javascript:void(0)" class="link_lear">Learn more</a>
+  </div>
 </section>
-<section>
-  <span>GET STARTED</span>
-  <h2>User-friendly Interface</h2>
-  <p>
-    The in-game goal clips from every Premier League match are available to Guardian TV customers with a Guardian
-    subscription.
-  </p>
-  <p>
-    So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s a step too far for you, you
-    can still watch loads of firecracker Premier League action as long as you sign in with a free Guardian iD.
-  </p>
-  <a href="javascript:void(0)">Learn more</a>
-  <img src="images/Group%20672.png" alt="">
-  <img src="images/Group%207.1.png" alt="">
-  <img src="images/Group%20696.png" alt="">
-  <img src="images/Group%20694.2.png" alt="">
-  <img src="images/Group%20694.3.png" alt="">
+<section class="third_block">
+  <img src="images/Group%20696.svg" alt="dot" class="dot">
+  <div class="start_app">
+    <h5 class="first_h5">GET STARTED</h5>
+    <h3 class="first_h3">User-friendly Interface</h3>
+    <p class="information_about_app">The in-game goal clips from every
+      Premier League match are available to Guardian TV customers with a Guardian
+      subscription.</p>
+    <p class="information_about_app">So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s
+      a step too far for
+      you, you
+      can still watch loads of firecracker Premier League action as long as you sign in with a free Guardian iD.
+    </p>
+    <a href="javascript:void(0)" class="link_lear">Learn more</a>
+  </div>
+  <div class="telephone_slide">
+    <div class="telephone">
+      <img src="images/telephone_background.png" alt="telephone">
+      <img src="images/icon_call.svg" alt="call" class="icon_call">
+      <img src="images/icon.svg" alt="phone_icon" class="icon_phone">
+    </div>
+  </div>
 </section>
+
+
 <section>
   <h2>Features That Will Tailor Your Experience</h2>
   <ul>
@@ -176,12 +201,14 @@
 <div><img src="images/Frame%202.png" alt=""></div>
 <footer>
   <img src="images/LOGO.png" alt="">
-  <ul>
-    <li><a href="javascript:void(0)">Download</a></li>
-    <li><a href="javascript:void(0)">Support</a></li>
-    <li><a href="javascript:void(0)">Developers</a></li>
-    <li><a href="javascript:void(0)">Privacy</a></li>
-  </ul>
+  <nav>
+    <ul>
+      <li><a href="javascript:void(0)">Download</a></li>
+      <li><a href="javascript:void(0)">Support</a></li>
+      <li><a href="javascript:void(0)">Developers</a></li>
+      <li><a href="javascript:void(0)">Privacy</a></li>
+    </ul>
+  </nav>
   <ul>
     <li><a href="javascript:void(0)"><img src="images/twitter%202.png" alt=""></a></li>
     <li><a href="javascript:void(0)"><img src="images/facebook%202.png" alt=""></a></li>
