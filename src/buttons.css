@@ -7,7 +7,8 @@
 
 }
 
-.google_button, .apple_button {
+.google_button,
+.apple_button {
   display: flex;
   opacity: 1;
 }
@@ -17,4 +18,3 @@
   transition: 0.5s;
   opacity: 0.8;
 }
-

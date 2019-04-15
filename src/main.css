@@ -13,9 +13,8 @@ body {
 .first_block {
   display: flex;
   flex-direction: column;
-  background-size: contain;
   height: 665px;
-  background: var(--first_block_background) url("./images/frame.png") no-repeat right;
+  background: var(--first_block_background) url("images/frame.png") no-repeat right;
 }
 
 .logo {
@@ -61,11 +60,11 @@ body {
 }
 
 .arsenal-vs-chelsea {
+  position: relative;
   width: 50%;
   background: linear-gradient(270deg, var(--white) 5.16%,
   rgba(255, 255, 255, 0) 67.14%),
   rgba(255, 255, 255, 0.5) url("images/background_fone_form.png") no-repeat;
-  position: relative;
 }
 
 .football_match {
@@ -182,7 +181,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 88px;
-  padding-left: 100px
+  padding-left: 100px;
 }
 
 .first_h5 {
@@ -220,15 +219,7 @@ body {
 .third_block {
   display: flex;
   position: relative;
-  background: var(--white) url("images/second_block_background.png") no-repeat right;
-}
-
-.dot{
-  position: absolute;
-  left: 768px;
-  top: 507px;
-  width: 30px;
-  height: 30px;
+  overflow: hidden;
 }
 
 .start_app {
@@ -260,3 +251,107 @@ body {
   left: 265px;
 }
 
+.circle1 {
+  width: 400px;
+  height: 400px;
+  border: 1px dashed var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  top: 78px;
+  left: -6px;
+  z-index: -1;
+}
+
+.circle2 {
+  border: 1px dashed var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: -22px;
+  left: -106px;
+
+}
+
+.circle3 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  box-sizing: border-box;
+  top: -115px;
+  left: -203px;
+  opacity: 0.4;
+}
+
+.circle4 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  box-sizing: border-box;
+  top: -220px;
+  left: -301px;
+  opacity: 0.3;
+}
+
+.circle5 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  box-sizing: border-box;
+  top: -304px;
+  left: -415px;
+  opacity: 0.2;
+}
+
+.circle6 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 1400px;
+  height: 1400px;
+  box-sizing: border-box;
+  top: -400px;
+  left: -512px;
+  opacity: 0.2;
+}
+
+.circle7 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 1600px;
+  height: 1600px;
+  box-sizing: border-box;
+  left: -618px;
+  top: -505px;
+  opacity: 0.1;
+}
+
+.circle8 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 1800px;
+  height: 1800px;
+  box-sizing: border-box;
+  top: -595px;
+  left: -705px;
+  opacity: 0.1;
+}
+.circle9 {
+  border: 1px solid var(--brand);
+  border-radius: 50%;
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+  box-sizing: border-box;
+  top: -678px;
+  left: -809px;
+  opacity: 0.05;
+}
