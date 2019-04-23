@@ -65,7 +65,7 @@ body {
   width: 50%;
   background: linear-gradient(270deg, var(--white) 25%,
   rgba(255, 255, 255, 0) 95%),
-  url("images/background_fone_form.png") no-repeat;
+    url("images/background_fone_form.png") no-repeat;
 }
 
 .football_match {
@@ -437,8 +437,6 @@ body {
   line-height: 37px;
   color: var(--black);
 }
-
-
 /*
 .main {
   width: 500px;
