@@ -65,7 +65,7 @@ body {
   width: 50%;
   background: linear-gradient(270deg, var(--white) 25%,
   rgba(255, 255, 255, 0) 95%),
-    url("images/background_fone_form.png") no-repeat;
+  url("images/background_fone_form.png") no-repeat;
 }
 
 .football_match {
@@ -436,4 +436,75 @@ body {
   font-size: 28px;
   line-height: 37px;
   color: var(--black);
+}
+
+
+/*
+.main {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+h3 {
+  background: #fff;
+  color: #3498db;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+
+.action {
+  display: block;
+  margin: 100px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.action a {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #f30;
+  color: #fff;
+  text-decoration: none;
+}
+
+.action a:hover {
+  background: #000;
+}
+*/
+
+.six_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background: var(--featured_block_background);
+}
+
+.six_block_header {
+  margin-top: 57px;
+  margin-bottom: 60px;
+  color: var(--black);
+  font-family: var(--main_font);
+  font-size: 28px;
+  line-height: 37px;
+}
+
+.sponsors_list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 68px;
+  flex-wrap: wrap;
+}
+
+.sponsor {
+  margin-right: 80px;
+  text-decoration: none;
+  padding: 0;
+  list-style: none;
 }
