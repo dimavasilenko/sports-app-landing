@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Football</title>
   <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../lib/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="../lib/slick/slick-theme.css">
 </head>
 <body>
 <section class="first_block">
@@ -43,7 +45,7 @@
       </form>
     </div>
     <video class="video" controls="controls" poster="video/Rectangle.png">
-      <source src="video/Ars-Tot.mp4" type="video/mp4">
+      <source src="video/videoplayback.mp4#t28,148" type="video/mp4">
     </video>
   </div>
   <div class="about_app">
@@ -79,6 +81,10 @@
       <img src="images/icon.svg" alt="phone_icon" class="icon_phone">
       <div class="circle1"></div>
       <div class="circle2"></div>
+      <div class="circle_dot">
+        <div class="dot">
+        </div>
+      </div>
       <div class="circle3"></div>
       <div class="circle4"></div>
       <div class="circle5"></div>
@@ -91,98 +97,104 @@
 </section>
 
 
-<section>
-  <h2>Features That Will Tailor Your Experience</h2>
-  <ul>
-    <li>
-      <img src="images/vectors/Vector%20(1).png" alt="">
-      <p>Video highlights for every Premier League and English Football League game</p>
-    </li>
-    <li>
-      <img src="images/vectors/Vector%20(2).png" alt="">
-      <p>
-        Notifications for your teams, including in-game goal clips and Premier League match highlights for Sky
-        TV subscribers with Guardian.
-      </p>
-    </li>
-    <li>
-      <img src="images/vectors/Vector%20(3).png" alt="">
-      <p>
-        Brand new video section including dedicated areas for your chosen team, trending video, Premier
-        League, Football league and other major leagues
-      </p>
-    </li>
-    <li>
-      <img src="images/vectors/Vector%20(4).png" alt="">
-      <p>
-        Match pages showing live scores, commentary, team line-ups and enhanced match stats to keep you
-        up-to-date on all the action
-      </p>
-    </li>
-    <li>
-      <img src="images/vectors/Vector%20(5).png" alt="">
-      <p>
-        The new picture in picture video mode means you can watch goals, manager interviews and more whilst using other
-        areas of the app – so you don’t need to miss any of the action
-      </p>
-    </li>
-    <li>
-      <img src="images/vectors/Vector%20(6).png" alt="">
-      <p>
-        Live updated league tables including all the domestic, European and major leagues and tournaments
-      </p>
-    </li>
-    <li>
-      <img src="images/vectors/Vector%20(7).png" alt="">
-      <p>
-        The Guardian News Vidiprinter. Follow the goals as they go in with our new and improved Vidiprinter
-      </p>
-    </li>
-    <li>
-      <img src="images/vectors/Vector%20(8).png" alt="">
-      <p>
-        Match reports, previews and a dedicated news section
-      </p>
-    </li>
-    <li>
-      <img src="images/vectors/Vector%20(9).png" alt="">
-      <p>
-        And you can achieve super-fan status by personalising your home page with up-to-the-minute
-        information
-        on your team.
-      </p>
-    </li>
-  </ul>
+<section class="fourth_block">
+  <div class="fourth_block_content">
+    <h2 class="fourth_block_header">Features That Will Tailor Your Experience</h2>
+    <div class="twitter">
+      <ul class="features_list">
+        <li class="item">
+          <img src="images/vectors/Vector%20(1).png" alt="">
+          <p>
+            &#149; Video highlights for every Premier League and English Football League game
+          </p>
+        </li>
+        <li class="item">
+          <img src="images/vectors/Vector%20(2).png" alt="">
+          <p>
+            &#149; Notifications for your teams, including in-game goal clips and Premier League match highlights for
+            Sky
+            TV subscribers with Guardian.
+          </p>
+        </li>
+        <li class="item">
+          <img src="images/vectors/Vector%20(3).png" alt="">
+          <p>
+            &#149; Brand new video section including dedicated areas for your chosen team, trending video, Premier
+            League, Football league and other major leagues
+          </p>
+        </li>
+        <li class="item">
+          <img src="images/vectors/Vector%20(4).png" alt="">
+          <p>
+            &#149; Match pages showing live scores, commentary, team line-ups and enhanced match stats to keep you
+            up-to-date on all the action
+          </p>
+        </li>
+        <li class="item">
+          <img src="images/vectors/Vector%20(5).png" alt="">
+          <p>
+            &#149; The new picture in picture video mode means you can watch goals, manager interviews and more whilst
+            using other
+            areas of the app – so you don’t need to miss any of the action
+          </p>
+        </li>
+        <li class="item">
+          <img src="images/vectors/Vector%20(6).png" alt="">
+          <p>
+            &#149; Live updated league tables including all the domestic, European and major leagues and tournaments
+          </p>
+        </li>
+        <li class="item">
+          <img src="images/vectors/Vector%20(7).png" alt="">
+          <p>
+            &#149; The Guardian News Vidiprinter. Follow the goals as they go in with our new and improved Vidiprinter
+          </p>
+        </li>
+        <li class="item">
+          <img src="images/vectors/Vector%20(8).png" alt="">
+          <p>
+            &#149; Match reports, previews and a dedicated news section
+          </p>
+        </li>
+        <li class="item">
+          <img src="images/vectors/Vector%20(9).png" alt="">
+          <p>
+            &#149; And you can achieve super-fan status by personalising your home page with up-to-the-minute
+            information
+            on your team.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>
-<section>
-  <h2>What Our Users Say</h2>
-  <img src="images/Group%20161.7.png" alt="">
-  <img src="images/Group%20161.6.png" alt="">
-  <ul>
-    <li>
-      <img src="images/Ellipse.png" alt="">
-      <h5>Noah Jackson</h5>
-      <p>
-        I use this app every day and it's a great way to keep up to date with what's going on in football. It's a
-        shame it won't rotate into landscape mode like its main competitor
-      </p>
-      <img src="images/twitter-vector.png" alt="">
-    </li>
-    <li>
-      <img src="images/Ellipse%20(1).png" alt="">
-      <h5>Darren Wilson</h5>
-      <p>Good for scores and commentary but the team lineups have stopped working. </p>
-      <img src="images/twitter-vector.png" alt="">
-    </li>
-    <li>
-      <img src="images/Ellipse%20(2).png" alt="">
-      <h5>Michael Akinuli</h5>
-      <p>Good for watching the goals and great for highlights instead of waiting till 10:30 before you can watch
-        highlights on March of the day also no need of sky go
-      </p>
-      <img src="images/twitter-vector.png" alt="">
-    </li>
-  </ul>
+<section class="block_5">
+  <h3 class="twitter_block_head">What Our Users Say:</h3>
+  <div class="twitter">
+    <img src="images/Ellipse.png" alt="portrait" class="portrait">
+    <h5 class="name">Michael Akinuli</h5>
+    <a href="javascript: void(0)"><img src="images/twitter_logo.svg" alt="twitter_logo" class="twitter_logo"></a>
+    <p class="opinion">Good for watching the goals and great for highlights instead of waiting till 10:30 before you
+      can watch highlights on March of the day also no need of sky go.</p>
+    <img src="images/Ellipse%20(2).png" alt="portrait" class="portrait">
+    <h5 class="name">Darren Wilson</h5>
+    <a href="javascript: void(0)"><img src="images/twitter_logo.svg" alt="twitter_logo" class="twitter_logo"></a>
+    <p>Good for scores and commentary but the team lineups have stopped working.</p>
+    <img src="images/Ellipse%20(1).png" alt="portrait" class="portrait">
+    <h5 class="name">Ivan Ivanovich</h5>
+    <a href="javascript: void(0)"><img src="images/twitter_logo.svg" alt="twitter_logo" class="twitter_logo"></a>
+    <p>Realy good app, thank you</p>
+    <img src="images/Ellipse%20(1).png" alt="portrait" class="portrait">
+    <h5 class="name">Noah Jackson</h5>
+    <a href="javascript: void(0)"><img src="images/twitter_logo.svg" alt="twitter_logo" class="twitter_logo"></a>
+    <p>I use this app every day and it's a great way to keep up to date with what's going on in football. It's a
+      shame it won't rotate into landscape mode like its main competitor.
+    </p>
+    <img src="images/Ellipse%20(1).png" alt="portrait" class="portrait">
+    <h5 class="name">Petrov Petrovich</h5>
+    <a href="javascript: void(0)"><img src="images/twitter_logo.svg" alt="twitter_logo" class="twitter_logo"></a>
+    <p>Not so good, but ok</p>
+  </div>
 </section>
 <section>
   <h2>We have been featured in</h2>
@@ -223,6 +235,10 @@
     <li><a href="javascript:void(0)"><img src="images/instagram%202.png" alt=""></a></li>
   </ul>
 </footer>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../lib/slick/slick.min.js"></script>
+<script src="slick.js"></script>
 </body>
 </html>
 

@@ -3,18 +3,18 @@
 }
 
 body {
-  margin: 0 auto;
-  width: 1440px;
-  max-width: 100%;
+  margin: 0;
 }
 
 /*first block*/
 
 .first_block {
+  background: var(--first_block_background) url("images/frame.png") no-repeat right;
   display: flex;
   flex-direction: column;
-  height: 665px;
-  background: var(--first_block_background) url("images/frame.png") no-repeat right;
+  background-size: contain;
+  height: 100vh;
+
 }
 
 .logo {
@@ -63,9 +63,8 @@ body {
 .arsenal-vs-chelsea {
   position: relative;
   width: 50%;
-  background: linear-gradient(270deg, var(--white) 5.16%,
-  rgba(255, 255, 255, 0) 67.14%),
-    rgba(255, 255, 255, 0.5) url("images/background_fone_form.png") no-repeat;
+  background: linear-gradient(270deg, var(--white) 25%,
+  rgba(255, 255, 255, 0) 95%), url("images/background_fone_form.png") no-repeat;
 }
 
 .football_match {
@@ -225,12 +224,14 @@ body {
 
 .start_app {
   display: flex;
+  width: 50%;
   flex-direction: column;
   margin: 109px 0 0 163px;
 }
 
 .telephone_slide {
   display: flex;
+  width: 50%;
   flex-direction: column;
   margin: 104px 0 0 270px;
 }
@@ -271,7 +272,33 @@ body {
   height: 600px;
   top: -22px;
   left: -106px;
+}
 
+.circle_dot {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: -22px;
+  left: -106px;
+  animation: dot 30s infinite linear;
+}
+
+@keyframes dot {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--brand);
+  border: 8px solid var(--white);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.25), 0 2px 6px rgba(51, 51, 51, 0.1);
+  position: absolute;
+  top: 437px;
+  left: 27px;
 }
 
 .circle3 {
@@ -357,3 +384,57 @@ body {
   left: -809px;
   opacity: 0.05;
 }
+
+.fourth_block {
+  display: flex;
+  background: url(images/block_4_background.svg) no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-content: center;
+}
+
+.fourth_block_content {
+  flex-direction: column;
+  align-content: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.fourth_block_header {
+  text-align: center;
+  color: var(--white);
+  font-size: 28px;
+  line-height: 37px;
+  margin-top: 76px;
+}
+
+.features_list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  color: var(--white);
+  line-height: 23px;
+  padding: -1px;
+  justify-content: center;
+  align-content: baseline;
+  margin-left: 50px;
+}
+
+.item {
+  flex-basis: 311px;
+  margin-right: 90px;
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.twitter_block_head {
+  text-align: center;
+  margin-bottom: 63px;
+  margin-top: 68px;
+  font-size: 28px;
+  line-height: 37px;
+  color: var(--black);
+}
+
+
