@@ -65,7 +65,7 @@ body {
   width: 50%;
   background: linear-gradient(270deg, var(--white) 25%,
   rgba(255, 255, 255, 0) 95%),
-    url("images/background_fone_form.png") no-repeat;
+  url("images/background_fone_form.png") no-repeat;
 }
 
 .football_match {
@@ -437,43 +437,45 @@ body {
   line-height: 37px;
   color: var(--black);
 }
-/*
-.main {
-  width: 500px;
-  display: block;
-  margin: 0 auto;
+
+.twitter {
+  width: 90%;
+  margin: auto;
 }
 
-h3 {
-  background: #fff;
-  color: #3498db;
-  font-size: 36px;
-  line-height: 100px;
-  margin: 10px;
-  padding: 2%;
+
+.reviews {
+  border: solid 1px var(--twitter-border);
+  height: 161px;
+  border-radius: 4px;
+  margin-right: 36px;
+  padding-left: 17px;
+  padding-right: 5px;
+}
+
+.user-info {
+  display: flex;
   position: relative;
-  text-align: center;
+  margin-top: 15px;
+  align-items: center;
 }
 
-.action {
-  display: block;
-  margin: 100px auto;
-  width: 100%;
-  text-align: center;
+.portrait {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
 }
 
-.action a {
-  display: inline-block;
-  padding: 5px 10px;
-  background: #f30;
-  color: #fff;
-  text-decoration: none;
+.name {
+  font-size: 16px;
+  line-height: normal;
+  margin: 11px;
 }
 
-.action a:hover {
-  background: #000;
+.user-comment {
+  font-size: 14px;
+  line-height: 18px;
 }
-*/
 
 .six_block {
   display: flex;
