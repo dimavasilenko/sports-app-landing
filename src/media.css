@@ -5,16 +5,19 @@
 
   .start_app {
     flex-direction: column;
-    margin: 15px 0 15px 0;
+    margin: 15px;
     align-items: center;
     width: 100%;
   }
-  .item:last-child{
+
+  .item:last-child {
     display: none;
   }
-.first_block{
-  background: none;
-}
+
+  .first_block {
+    background: none;
+  }
+
   .six_block {
     display: none;
   }

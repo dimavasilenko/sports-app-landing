@@ -9,7 +9,7 @@ body {
 /*first block*/
 
 .first_block {
-  background: var(--first_block_background) url("images/frame.png") no-repeat right;
+  background: var(--first_block_background) url("images/frame.svg") no-repeat right;
   display: flex;
   flex-direction: column;
   background-size: contain;
@@ -65,7 +65,7 @@ body {
   width: 50%;
   background: linear-gradient(270deg, var(--white) 25%,
   rgba(255, 255, 255, 0) 95%),
-  url("images/background_fone_form.png") no-repeat;
+    url("images/background_fone_form.png") no-repeat;
 }
 
 .football_match {
