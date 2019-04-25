@@ -65,7 +65,7 @@ body {
   width: 50%;
   background: linear-gradient(270deg, var(--white) 25%,
   rgba(255, 255, 255, 0) 95%),
-    url("images/background_fone_form.png") no-repeat;
+  url("images/background_fone_form.png") no-repeat;
 }
 
 .football_match {
@@ -443,6 +443,76 @@ body {
   margin: auto;
 }
 
+.button_left,
+.button_right {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  border: 1px solid var(--brand);
+  outline: none;
+  position: absolute;
+  top: 55px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button_left:active,
+.button_right:active {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+.button_left {
+  left: -60px;
+  background: var(--white) url("images/arrow-left.svg") no-repeat 48% 21%;
+}
+
+.button_right {
+  right: -60px;
+  background: var(--white) url("images/arrow-right.svg") no-repeat 52% 25%;
+}
+
+.dotted {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.dotted button {
+  display: none;
+}
+
+.dotted li {
+  background-color: var(--twitter-border);
+  border: none;
+  border-radius: 50%;
+  width: 11px;
+  height: 11px;
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+.dotted li:nth-child(2) {
+  background-color: var(--circle2);
+}
+
+.dotted li:nth-child(3) {
+  background-color: var(--circle3);
+}
+
+.dotted li:nth-child(4) {
+  background-color: var(--circle4);
+}
+
+.dotted li:nth-child(5) {
+  background-color: var(--circle5);
+}
+
+.dotted li:active {
+  background-color: var(--black);
+}
+
 .reviews {
   border: solid 1px var(--twitter-border);
   height: 161px;
@@ -506,4 +576,39 @@ body {
   text-decoration: none;
   padding: 0;
   list-style: none;
+}
+
+.seventh_block {
+  display: flex;
+  height: 483px;
+}
+
+.seventh_block_frame {
+  width: 50%;
+  height: 100%;
+  background: url(images/frame2.png) no-repeat;
+}
+
+.seventh_block_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.seventh_block_right_headline {
+  width: 554px;
+  height: 37px;
+  font-size: 28px;
+  line-height: 37px;
+  color: var(--color_for_h);
+}
+
+.seventh_block_right_text {
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--color_for_p);
+  width: 535px;
+  height: 125px;
 }

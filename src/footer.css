@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  background-color: var(--brand);
+  padding: 48px 136px 48px 163px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.nav_ul,
+.footer_ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav_a:hover {
+  text-decoration: underline;
+}
+
+.nav_a {
+  font-family: var(--main_font);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--white);
+  margin-right: 36px;
+  text-decoration: none;
+}
+
+.footer_a {
+  margin-right: 17px;
+}
+
+.logo2 {
+  margin-top: 9px;
+}

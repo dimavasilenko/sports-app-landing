@@ -1,28 +1,28 @@
-
 $('.twitter').slick({
-  dots: true,
-  centerMode: true,
-  centerPadding: '60px',
   slidesToShow: 3,
+  dots: true,
+  prevArrow: '<div class="button_left"></div>',
+  nextArrow: '<div class="button_right"></div>',
+  dotsClass: 'dotted',
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 1024,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
+        slidesToShow: 2,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
       }
     },
     {
       breakpoint: 480,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
+        slidesToShow: 1,
       }
     }
   ]
-
 });

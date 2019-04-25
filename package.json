@@ -39,6 +39,7 @@
     }
   },
   "dependencies": {
-    "@glidejs/glide": "^3.3.0"
+    "@glidejs/glide": "^3.3.0",
+    "animate.css": "^3.7.0"
   }
 }

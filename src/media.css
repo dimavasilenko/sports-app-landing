@@ -1,0 +1,29 @@
+@media (max-width: 1200px) {
+  .telephone_slide {
+    display: none;
+  }
+
+  .start_app {
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+    align-items: center;
+    width: 100%;
+  }
+  .item:last-child{
+    display: none;
+  }
+.first_block{
+  background: none;
+}
+  .six_block {
+    display: none;
+  }
+
+  .seventh_block_frame {
+    display: none;
+  }
+
+  .seventh_block {
+    justify-content: space-around;
+  }
+}
