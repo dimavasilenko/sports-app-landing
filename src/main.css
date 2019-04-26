@@ -65,7 +65,7 @@ body {
   width: 50%;
   background: linear-gradient(270deg, var(--white) 25%,
   rgba(255, 255, 255, 0) 95%),
-    url("images/background_fone_form.png") no-repeat;
+  url("images/background_fone_form.png") no-repeat;
 }
 
 .football_match {
@@ -169,12 +169,8 @@ body {
   position: absolute;
   left: 269px;
   top: 269px;
-}
-
-.video:hover {
-  z-index: 2;
-  transition: 1s;
-}
+  border-radius: 4px;
+  outline: none;
 
 /* third block */
 
