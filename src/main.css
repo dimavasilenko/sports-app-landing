@@ -162,15 +162,23 @@ body {
   right: -6px;
   transition: 0.5s;
 }
-
-.video {
+.video{
   width: 360px;
   height: 218px;
   position: absolute;
   left: 269px;
   top: 269px;
-  border-radius: 4px;
   outline: none;
+}
+
+.video:hover {
+  width: 360px;
+  height: 218px;
+  position: absolute;
+  left: 269px;
+  top: 269px;
+  outline: none;
+}
 
 /* third block */
 
