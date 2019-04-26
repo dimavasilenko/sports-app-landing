@@ -65,7 +65,7 @@ body {
   width: 50%;
   background: linear-gradient(270deg, var(--white) 25%,
   rgba(255, 255, 255, 0) 95%),
-    url("images/background_fone_form.png") no-repeat;
+  url("images/background_fone_form.png") no-repeat;
 }
 
 .football_match {
@@ -112,6 +112,7 @@ body {
   font-family: var(--main_font);
   font-size: 19px;
   line-height: 25px;
+  font-weight: normal;
   color: var(--color_for_p);
   padding: 0 109px 0 30px;
 }
@@ -208,6 +209,8 @@ body {
   line-height: 23px;
   color: var(--color_for_p);
   width: 407px;
+  font-family: var(--main_font);
+  font-size: 16px;
 }
 
 .link_lear {
@@ -435,6 +438,8 @@ body {
 }
 
 .twitter_block_head {
+  font-family: var(--main_font);
+  font-weight: bold;
   text-align: center;
   margin-bottom: 63px;
   margin-top: 68px;
@@ -541,12 +546,15 @@ body {
 }
 
 .name {
+  font-family: var(--main_font);
+  font-weight: bold;
   font-size: 16px;
-  line-height: normal;
+  line-height: 19px;
   margin: 11px;
 }
 
 .user-comment {
+  font-family: var(--main_font);
   font-size: 14px;
   line-height: 18px;
 }
@@ -603,6 +611,8 @@ body {
 }
 
 .seventh_block_right_headline {
+  font-family: var(--main_font);
+  font-weight: bold;
   width: 554px;
   height: 37px;
   font-size: 28px;
@@ -611,6 +621,7 @@ body {
 }
 
 .seventh_block_right_text {
+  font-family: var(--main_font);
   font-size: 16px;
   line-height: 25px;
   color: var(--color_for_p);
@@ -620,4 +631,37 @@ body {
 
 .dot_content::before {
   content: "•";
+}
+
+.teams_of_match {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.type_of_match {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.date_of_match {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+  color: var(--color_for_p);
+}
+
+.fourth_block_header {
+  font-family: var(--main_font);
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+}
+
+.dot_content {
+  font-family: var(--main_font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
 }
