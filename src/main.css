@@ -617,3 +617,7 @@ body {
   width: 535px;
   height: 125px;
 }
+
+.dot_content::before {
+  content: "•";
+}
