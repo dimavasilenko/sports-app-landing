@@ -474,7 +474,7 @@ body {
 }
 
 .button_right {
-  right: -60px;
+  right: -27px;
   background: var(--white) url("images/arrow-right.svg") no-repeat 52% 25%;
 }
 
