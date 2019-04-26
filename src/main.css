@@ -633,17 +633,17 @@ body {
   content: "•";
 }
 
-.teams_of_match {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-}
-
 .type_of_match {
   font-weight: normal;
   font-size: 16px;
   line-height: 21px;
 }
+
+.teams_of_match {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+ }
 
 .date_of_match {
   font-weight: bold;
